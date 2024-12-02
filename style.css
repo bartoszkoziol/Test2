@@ -39,7 +39,7 @@ p a:hover{
     background-color: blue;
 }
 @media (max-width: 1024px) {
-    .columns {display: flex;}
+    .columns {flex-direction: column;}
 }
 
 .home{
