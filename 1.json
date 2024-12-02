@@ -1,0 +1,20 @@
+[
+    {
+        "imie": "Anna",
+        "wiek": 29,
+        "czy_student": true,
+        "oceny": [5, 4.5, 4]
+    },
+    {
+        "imie": "Jan",
+        "wiek": 34,
+        "czy_student": false,
+        "oceny": [3.5, 4, 4.5]
+    },
+    {
+        "imie": "Kasia",
+        "wiek": 22,
+        "czy_student": true,
+        "oceny": [4.5, 5, 5]
+    }
+]
