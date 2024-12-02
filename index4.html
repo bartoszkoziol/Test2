@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formularz</h1>
+    <form>
+        <label for="name">Imię:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+        <label for="topic">Pleć:</label><br>
+        <select id="topic" name="topic">
+            <option value="technology">Kobieta</option>
+            <option value="science">Mężczyzna</option>
+        </select><br><br>
+        
+        <label for="topic">Temat:</label><br>
+        <select id="topic" name="topic">
+            <option value="technology">Nowe technologie w oprogramowaniu</option>
+            <option value="science">Ewolucja oprogramowania</option>
+            <option value="art">Kategorie oprogramowania komputerowego</option>
+        </select><br><br>
+
+        <button type="submit" class="save">Zapisz</button>
+        <button type="reset" class="cancel">Anuluj</button>
+    </form>
+</body>
+</html>
